@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Manage Data</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <h2>Manage Data (Edit / Delete)</h2>
+    <p><a href="/">🔙 Back to Home</a></p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>App</th>
+                <th>Date</th>
+                <th>Impression</th>
+                <th>Visitors</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in data %}
+            <tr>
+                <form method="post" action="/edit">
+                    <td>{{ row["App"] }}</td>
+                    <td>
+                        <input type="text" name="date" value="{{ row.get('Date', '') }}">
+                    </td>
+                    <td>
+                        <input type="text" name="Impression" value="{{ row.get('Impression', '') }}">
+                    </td>
+                    <td>
+                        <input type="text" name="Visitor" value="{{ row.get('Visitor', '') }}">
+                    </td>
+                    <td>
+                        <input type="hidden" name="app" value="{{ row['App'] }}">
+                        <input type="hidden" name="index" value="{{ row['Index'] }}">
+                        <button type="submit">Save</button>
+                </form>
+                <form method="post" action="/delete" style="display:inline;">
+                    <input type="hidden" name="app" value="{{ row['App'] }}">
+                    <input type="hidden" name="index" value="{{ row['Index'] }}">
+                    <button type="submit" style="background-color:red;color:white;">Delete</button>
+                </form>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+</body>
+
+</html>

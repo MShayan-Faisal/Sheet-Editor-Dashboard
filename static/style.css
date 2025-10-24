@@ -1,0 +1,118 @@
+/* Page background with wood texture */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: url('https://www.transparenttextures.com/patterns/wood-pattern.png');
+    background-color: #f7ecd0;
+    color: #3b2e2a;
+    margin: 40px;
+}
+
+/* Container */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(60, 30, 10, 0.2);
+}
+
+/* Headings */
+h1, h2 {
+    color: #5a3e2b;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px #e6c97e;
+}
+
+/* Styled Links as buttons */
+a {
+    display: inline-block;
+    background-color: #e6c44a;
+    color: #3b2e2a;
+    padding: 10px 15
+    px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    box-shadow: 2px 2px 5px rgba(80, 60, 20, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #d4af37;
+    color: #fff;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff8e1;
+    border: 2px solid #deb761;
+    box-shadow: 0 0 8px rgba(100, 70, 20, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 14px;
+    border-bottom: 1px solid #f0e3b3;
+    text-align: left;
+    font-size: 15px;
+    color: #3b2e2a;
+}
+
+th {
+    background-color: #f5d97d;
+    color: #4d3b1f;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Row Hover Effect */
+tr:hover {
+    background-color: #fff1c1;
+}
+
+/* Input Fields */
+input[type="text"],
+select {
+    padding: 10px;
+    width: 95%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccad6a;
+    background-color: #fffaf0;
+    color: #3b2e2a;
+}
+
+/* Buttons */
+button {
+    background-color: #e6b800;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-right: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 2px 2px 6px rgba(80, 60, 20, 0.3);
+}
+
+button:hover {
+    background-color: #c79f00;
+    transform: scale(1.02);
+}
+
+/* Delete button style */
+button.delete {
+    background-color: #c0392b;
+}
+
+button.delete:hover {
+    background-color: #a93226;
+}

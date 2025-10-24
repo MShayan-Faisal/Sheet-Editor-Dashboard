@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Data</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script>
+        function toggleFields() {
+            const app = document.querySelector("select[name='app']").value;
+            document.getElementById("translatorFields").style.display = app === "Translator" ? "block" : "none";
+            document.getElementById("summaryFields").style.display = app !== "Translator" ? "block" : "none";
+        }
+    </script>
+</head>
+<body onload="toggleFields()">
+    <h2>Add Data to Google Sheet</h2>
+    <p><a href="/">🔙 Back to Data</a></p>
+    <form method="post">
+        <label>Select App:</label>
+        <select name="app" onchange="toggleFields()">
+            <option value="Translator">Translator</option>
+            <option value="data">Summary</option>
+        </select><br><br>
+
+        <div id="translatorFields">
+            <label>Visitor:</label><br>
+            <input type="text" name="text"><br><br>
+
+            <label>Impression:</label><br>
+            <input type="text" name="result"><br><br>
+        </div>
+
+        <div id="summaryFields">
+            <label>Impression:</label><br>
+            <input type="text" name="impression"><br><br>
+
+            <label>Vister:</label><br>
+            <input type="text" name="vister"><br><br>
+        </div>
+
+        <button type="submit">Add Data</button>
+    </form>
+</body>
+</html>
