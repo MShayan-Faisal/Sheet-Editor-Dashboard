@@ -64,23 +64,26 @@ Sheet-Editor-Dashboard/
 │   └── index.html
 │
 ├── src/
-│   ├── components/
+│   ├── components/        # Reusable UI components
 │   │   ├── Header.jsx
 │   │   ├── Sidebar.jsx
 │   │   ├── SheetTable.jsx
 │   │   ├── EditModal.jsx
 │   │   └── Footer.jsx
 │   │
-│   ├── utils/
+│   ├── utils/             # API & helper functions
 │   │   ├── api.js
 │   │   └── sheetService.js
 │   │
-│   ├── App.jsx
-│   ├── App.css
-│   ├── index.js
-│   └── index.css
+│   ├── styles/            # Global styles (optional)
+│   │   ├── App.css
+│   │   └── index.css
+│   │
+│   ├── App.jsx            # Main app component
+│   └── index.js           # Entry point
 │
-└── README.md
+├── README.md
+└── package.json
 
 ---
 
