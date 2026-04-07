@@ -1,6 +1,6 @@
 # 📊 Sheet-Editor-Dashboard (React.js)
 
-The **Sheet-Editor-Dashboard** is a responsive and interactive web application built with **React.js**, designed to view, manage, and edit **Google Sheets data** directly from a modern dashboard interface.
+The **Sheet-Editor-Dashboard** is a responsive and interactive web application built with Dynamically, designed to view, manage, and edit **Google Sheets data** directly from a modern dashboard interface.
 
 It enables users to connect to a Google Sheet and perform full **CRUD operations (Create, Read, Update, Delete)** with real-time synchronization — all through a clean and user-friendly UI.
 
@@ -22,13 +22,11 @@ This project demonstrates practical experience with **Google Sheets API integrat
 ---
 
 ## 🧰 Tech Stack
-
-- React.js (Create React App)  
+  
 - CSS3 / Tailwind CSS  
 - Google Sheets API  
 - Axios / Fetch API  
-- JavaScript (ES6+)  
-- React Hooks (useState, useEffect)  
+- JavaScript (ES6+)   
 
 ---
 
