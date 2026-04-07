@@ -1,173 +1,89 @@
-📊 Sheet-Editor-Dashboard (React.js)
+# 📊 Sheet-Editor-Dashboard (React.js)
 
-The Sheet-Editor-Dashboard is a responsive and interactive web application built with React.js, designed to view, manage, and edit Google Sheets data directly from a modern dashboard interface.
+The **Sheet-Editor-Dashboard** is a responsive and interactive web application built with **React.js**, designed to view, manage, and edit **Google Sheets data** directly from a modern dashboard interface.
 
-It allows users to connect to a Google Sheet, edit cell data, add new entries, delete rows, and automatically sync updates in real-time — all from a clean, user-friendly interface.
+It enables users to connect to a Google Sheet and perform full **CRUD operations (Create, Read, Update, Delete)** with real-time synchronization — all through a clean and user-friendly UI.
 
-This project showcases practical use of Google Sheets API integration, React Hooks, and state management to handle live data dynamically.
+This project demonstrates practical experience with **Google Sheets API integration, React Hooks, and dynamic state management**.
 
-🚀 Getting Started with Create React App
+---
 
-This project was bootstrapped with Create React App
-.
+## 🚀 Features
 
-🧰 Available Scripts
+- 🔄 Real-time data fetching and sync with Google Sheets  
+- ✏️ Inline cell editing directly from UI  
+- ➕ Add new rows dynamically  
+- ❌ Delete rows with confirmation  
+- 🔍 Search and filter functionality  
+- 📱 Fully responsive dashboard design  
+- 🔐 Google OAuth authentication integration  
+- ⚡ Modular and reusable React components  
 
-In the project directory, you can run:
+---
 
-npm start
+## 🧰 Tech Stack
 
-Runs the app in the development mode.
-Open http://localhost:3000
- to view it in your browser.
+- React.js (Create React App)  
+- CSS3 / Tailwind CSS  
+- Google Sheets API  
+- Axios / Fetch API  
+- JavaScript (ES6+)  
+- React Hooks (useState, useEffect)  
 
-The page will reload when you make changes.
-You may also see any lint errors in the console.
+---
 
-npm test
+## 🧠 Key Learnings
 
-Launches the test runner in interactive watch mode.
-See the section about running tests
- for more information.
+This project helped in understanding:
 
-npm run build
+- Google Sheets API integration with React  
+- Handling real-time data updates  
+- Managing state with React Hooks  
+- Building reusable and scalable components  
+- Working with asynchronous API calls  
+- Designing responsive dashboard UI  
 
-Builds the app for production into the build folder.
-It bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified, and filenames include hashes.
-Your app is ready to be deployed!
+## 🚀 Future Improvements
 
-For more information, see the section about deployment
-.
+- 🌙 Dark / Light mode toggle  
+- 📊 Charts and analytics dashboard  
+- 📄 Multi-sheet support  
+- 📥 CSV / Excel export & import  
+- 👥 Role-based user access  
+- 🔍 Advanced filtering & pagination  
 
-npm run eject
+---
 
-Note: this is a one-way operation. Once you eject, you can’t go back!
+## 📁 Project Structure
 
-If you need full control over configuration (Webpack, Babel, ESLint, etc.), you can eject to take complete ownership of the build setup.
 
-Most users never need to use eject, as the default configuration is powerful enough for production apps.
-
-🧠 About The Project
-
-The Sheet-Editor-Dashboard provides an intuitive interface to manage spreadsheet data in real-time.
-It connects directly to Google Sheets through API calls, allowing instant CRUD (Create, Read, Update, Delete) operations.
-
-Users can:
-
-Fetch and display Google Sheet data in a clean, responsive table
-
-Edit individual cells directly from the UI
-
-Add or delete rows instantly
-
-Sync data automatically with Google Sheets
-
-Manage authentication securely through Google OAuth
-
-This app demonstrates your ability to work with React, APIs, and live data synchronization effectively.
-
-⚙️ Key Features
-
-🔄 Real-time data fetching and synchronization with Google Sheets
-
-✏️ Inline editing for quick cell updates
-
-➕ Add new rows or entries dynamically
-
-❌ Delete rows easily with confirmation
-
-🔍 Search and filter functionality
-
-📱 Responsive dashboard layout
-
-🔐 Secure Google OAuth integration
-
-⚡ Built with modular, reusable React components
-
-🧩 Folder Structure
 Sheet-Editor-Dashboard/
 │
 ├── src/
-│   ├── components/
-│   │   ├── Header.jsx
-│   │   ├── Sidebar.jsx
-│   │   ├── SheetTable.jsx
-│   │   ├── EditModal.jsx
-│   │   └── Footer.jsx
-│   │
-│   ├── utils/
-│   │   ├── api.js
-│   │   └── sheetService.js
-│   │
-│   ├── App.jsx
-│   ├── App.css
-│   ├── index.js
-│   └── index.css
+│ ├── components/
+│ │ ├── Header.jsx
+│ │ ├── Sidebar.jsx
+│ │ ├── SheetTable.jsx
+│ │ ├── EditModal.jsx
+│ │ └── Footer.jsx
+│ │
+│ ├── utils/
+│ │ ├── api.js
+│ │ └── sheetService.js
+│ │
+│ ├── App.jsx
+│ ├── App.css
+│ ├── index.js
+│ └── index.css
 │
 └── public/
-    └── index.html
+└── index.html
 
-🧠 What I Learned
 
-Building the Sheet-Editor-Dashboard helped me understand:
+---
 
-How to integrate Google Sheets API with React
-
-Managing form data and state using useState and useEffect
-
-Handling asynchronous data fetching efficiently
-
-Structuring a scalable React component architecture
-
-Implementing real-time data editing in a dashboard UI
-
-Designing a responsive and accessible layout
-
-🚀 Future Improvements
-
-Add dark/light theme toggle
-
-Include chart visualization for data insights
-
-Add multi-sheet management
-
-Enable export/import (CSV, Excel) features
-
-Implement user roles and permissions
-
-Integrate pagination and advanced filtering
-
-🧰 Technologies Used
-
-React.js (Create React App) – Frontend framework
-
-Google Sheets API – Data integration
-
-JavaScript (ES6+) – App logic and event handling
-
-CSS3 / Tailwind CSS / Styled Components – Styling and layout
-
-Axios / Fetch API – For API requests
-
-React Hooks (useState, useEffect) – State and lifecycle management
-
-📬 Contact
-
-Email: shayanrajpoot520@gmail.com
-
-LinkedIn: https://www.linkedin.com/in/m-shayan-faisal/
-
-GitHub: https://github.com/shayan520898
-
-📝 License
+## 📝 License
 
 This project is open source and available under the MIT License.
-
-📚 Learn More
-
-You can learn more in the Create React App documentation
-.
-To learn React, check out the React documentation
-.
