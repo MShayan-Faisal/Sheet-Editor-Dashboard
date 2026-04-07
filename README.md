@@ -56,36 +56,6 @@ This project helped in understanding:
 
 ---
 
-## 📁 Project Structure
-
-
-Sheet-Editor-Dashboard/
-├── public/
-│   └── index.html
-│
-├── src/
-│   ├── components/        # Reusable UI components
-│   │   ├── Header.jsx
-│   │   ├── Sidebar.jsx
-│   │   ├── SheetTable.jsx
-│   │   ├── EditModal.jsx
-│   │   └── Footer.jsx
-│   │
-│   ├── utils/             # API & helper functions
-│   │   ├── api.js
-│   │   └── sheetService.js
-│   │
-│   ├── styles/            # Global styles (optional)
-│   │   ├── App.css
-│   │   └── index.css
-│   │
-│   ├── App.jsx            # Main app component
-│   └── index.js           # Entry point
-│
-├── README.md
-└── package.json
-
----
 
 ## 📝 License
 
