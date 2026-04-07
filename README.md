@@ -1,4 +1,4 @@
-# 📊 Sheet-Editor-Dashboard (React.js)
+# 📊 Sheet-Editor-Dashboard 
 
 The **Sheet-Editor-Dashboard** is a responsive and interactive web application built with Dynamically, designed to view, manage, and edit **Google Sheets data** directly from a modern dashboard interface.
 
