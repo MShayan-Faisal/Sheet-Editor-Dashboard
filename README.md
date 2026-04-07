@@ -60,27 +60,27 @@ This project helped in understanding:
 
 
 Sheet-Editor-Dashboard/
+├── public/
+│   └── index.html
 │
 ├── src/
-│ ├── components/
-│ │ ├── Header.jsx
-│ │ ├── Sidebar.jsx
-│ │ ├── SheetTable.jsx
-│ │ ├── EditModal.jsx
-│ │ └── Footer.jsx
-│ │
-│ ├── utils/
-│ │ ├── api.js
-│ │ └── sheetService.js
-│ │
-│ ├── App.jsx
-│ ├── App.css
-│ ├── index.js
-│ └── index.css
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── Sidebar.jsx
+│   │   ├── SheetTable.jsx
+│   │   ├── EditModal.jsx
+│   │   └── Footer.jsx
+│   │
+│   ├── utils/
+│   │   ├── api.js
+│   │   └── sheetService.js
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.js
+│   └── index.css
 │
-└── public/
-└── index.html
-
+└── README.md
 
 ---
 
